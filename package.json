@@ -17,14 +17,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:css": "postcss src/css/tail.css -o src/css/main.css -W",
-    "build:css": "postcss src/css/tail.css -o src/css/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
